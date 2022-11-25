@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "dependencies": {
+    "silabea": "^1.0.0"
+  },
+  "name": "story-dino",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilagrosRn/Story-Dino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilagrosRn/Story-Dino/issues"
+  },
+  "homepage": "https://github.com/MilagrosRn/Story-Dino#readme"
+}

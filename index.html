@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <section class="banner-main "> 
+        <img class="section" src="img/Group 7.jpg" alt="">
+    </section>
+    <section class="content section">
+      <!-- texto-carrusel -->
+        <section class="section-text">
+        <div class="container">
+            <div class="read-section">
+                <div class="element-left">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                </div>
+                <div class="slides">
+                    <div class="mySlides">
+                        
+                        <h3>La era de los dinosaurios</h3>
+                        <div class="mySlides-content">
+                            <p>Seguro que habrás oído hablar de los
+
+                            <select class="select" id="slide1A">
+                                <option value="value1">fosiles</option>
+                                <option value="value2" selected=""> dinosaurios</option>
+                            </select>
+                            El primer 
+
+                            <select class="select" id="slide1B">
+                                <option value="value3">noticias</option>
+                                <option value="value4" selected="">dato</option>
+                                <option value="value5">información</option>
+                            </select>
+                            que debes tener en cuenta es que los dinosaurios y
+                            
+                            <select class="select" id="slide1C">
+                                <option value="value6">personas</option>
+                                <option value="value7" selected="">humanos </option>
+                            </select>
+                           nunca   convivieron   en nuestro planeta. Así pues, tómate las peliculas y los dibujos
+                            
+                            simplemente como algo  
+                          
+                            <select class="select" id="slide1D">
+                                <option value="value8">gracioso</option>
+                                <option value="value9" selected=""> divertido</option>
+                            </select>  
+                        </p>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <h3>Vida de los dinosaurios</h3>
+                        <div class="mySlides-content">
+                            <p>Vivieron y
+
+                            <select class="select" id="slide2A">
+                                <option value="value10">mandaron</option>
+                                <option value="value11" selected="">  dominaron</option>
+                            </select>
+                            la Tierra durante 135 millones de años aproximadamente. La 
+
+                            <select class="select" id="slide2B">
+                                <option value="value12">desaparición</option>
+                                <option value="value13" selected=""> extinción</option>
+                            </select>
+                            de los dinosaurios se produjo hace 65 millones de años. Eran los vertebrados
+                            
+                            <select class="select" id="slide2C">
+                                <option value="value14">gobernantes</option>
+                                <option value="value15" selected="">dominantes</option>
+                            </select>
+                            y había  de gran tamaño. En eso no mienten los dibujos.
+                        
+                            <select class="select" id="slide2D">
+                                <option value="value16">animales</option>
+                                <option value="value17" selected=""> especies</option>
+                            </select>  
+                        </p>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <h3>El fin de una era</h3>
+                        <div class="mySlides-content">
+                            <p>Este suceso hizo posible que comenzaran a 
+                        
+                            <select class="select" id="slide3A">
+                                <option value="value18">crearse</option>
+                                <option value="value19">crecer</option>
+                                <option value="value20" selected=""> desarrollarse</option>
+                            </select>
+                            la flora y la  
+                            <select class="select" id="slide3B">
+                                <option value="value21">animales</option>
+                                <option value="value22" selected="">fauna</option>
+                            </select>
+                            actuales, ya que muchos de ellos se alimentaban de plantas, como habíamos visto anteriormente.
+                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-rigth">
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+            <div class="elements">
+                <span class="quadrate" onclick="currentSlide(1)"></span>
+                <span class="quadrate" onclick="currentSlide(2)"></span>
+                <span class="quadrate" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        
+        <div class="content voice">
+          <input type="text" class="w-25 form-control"id="texto" value="" placeholder="Selecciona una palabra del texto">
+           <button  class="bubbly-button" id="hablar" >
+                <p>Leer juntos</p>
+                <img src="/img/Vector (1).svg" alt="">
+            </button>
+          
+        </div>
+</section>
+<section class="section-game">
+        <div id="word-selected"class="word-selected"></div>
+<!-- juego -->
+          <div class="contenedor">
+
+            <div class="suelo"></div>
+            
+            <div class="dino dino-corriendo"></div>
+    
+            <div class="score">0</div>
+            <div class="game-over">GAME OVER</div>
+           
+        </div>
+    
+        <button class="bubbly-button" style="align-self: center" id="restart">Deletrear de nuevo</button>
+        </section>
+   
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="/main.js"></script>
+
+</body>
+</html>
